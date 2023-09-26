@@ -10,9 +10,7 @@ say nothing
 
 > Every computation has three elements: data, operations, and output.
 
-<img src="../Picture/1.png" alt="1" style="zoom:50%;" />
-
-![123](/Quantum%20Optimization/Picture/1.png)
+![1](/Quantum-Optimization/Picture/1.png)
 
 The three horizontal lines are  called wires, and they represent the three qubits.
 
@@ -45,13 +43,13 @@ $$
 
 for the 𝑋, 𝑌 , and 𝑍 axes we may define:
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\2.png" alt="2" style="zoom:60%;" />
+![2](/Quantum-Optimization/Picture/2.png)
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\3.png" alt="3" style="zoom:60%;" />
+![3](/Quantum-Optimization/Picture/3.png)
 
 it's clear that: $R_X(\pi)\equiv X,R_Y(\pi)\equiv Y,R_Z(\pi)\equiv Z,R_Z(\frac{\pi}{2})\equiv S,R_Z(\frac{\pi}{4})\equiv T$
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\9.png" alt="9" style="zoom:50%;" />
+![9](/Quantum-Optimization/Picture/9.png)
 
 ==check exercise 1.8 later==
 
@@ -61,12 +59,12 @@ we express a two-qubit states by ==tensor product==
 
 it's worth mentioning that: 
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\4.png" alt="4" style="zoom:75%;" />
+![4](/Quantum-Optimization/Picture/4.png)
 
 here's an example, in the following circuit, the gate $𝑋 \otimes 𝑋$ acts on the two qubits and then it is followed by the gate $𝐻 \otimes 𝐼$,
 where 𝐼 is the identity gate:
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\5.png" alt="5" style="zoom:75%;" />
+![5](/Quantum-Optimization/Picture/5.png)
 
 we have known the gate $CNOT$,
 
@@ -74,7 +72,7 @@ the control qubit is indicated by a solid black circle and the target qubit is i
 
  if we use the circuit:
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\6.png" alt="6" style="zoom:75%;" />
+![6](/Quantum-Optimization/Picture/6.png)
 
 we can apply a CNOT gate with target in the top qubit and control in the bottom one. It means the system is controlled by the second qubit, and if the second one is 1, the first qubit will be flipped.
 
@@ -93,11 +91,11 @@ the ==controlled-U Gate== (CU)
 
 the matrix is:
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\7.png" alt="7" style="zoom:50%;" />
+![7](/Quantum-Optimization/Picture/7.png)
 
 and the circuit looks like:
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\8.png" alt="8" style="zoom:75%;" />
+![8](/Quantum-Optimization/Picture/8.png)
 
 ### 1.5 Working with multiple qubits and universality
 
@@ -107,17 +105,17 @@ $$
 $$
 use Dirac notation, we get: 
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\10.png" alt="10" style="zoom:80%;" />
+![10](/Quantum-Optimization/Picture/10.png)
 
 where $a^*$ and $b^*$ are the complex conjugates of a and b 
 
 > if we have 𝑛 qubits, the states that constitute the computational basis are: 
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\11.png" alt="11" style="zoom:90%;" />
+![11](/Quantum-Optimization/Picture/11.png)
 
 the matrix for the $CCNOT$ gate:
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\12.png" alt="12" style="zoom:67%;" />
+![12](/Quantum-Optimization/Picture/12.png)
 
 using it and with the help of auxiliary qubits, we can **construct any classical Boolean operator**
 
