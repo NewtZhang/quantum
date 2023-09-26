@@ -10,7 +10,9 @@ say nothing
 
 > Every computation has three elements: data, operations, and output.
 
-<img src="D:\ZJU\SRTP\files\Quantum Optimization\Picture\1.png" alt="1" style="zoom:50%;" />
+<img src="../Picture/1.png" alt="1" style="zoom:50%;" />
+
+![123](/Quantum%20Optimization/Picture/1.png)
 
 The three horizontal lines are  called wires, and they represent the three qubits.
 
