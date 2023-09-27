@@ -10,7 +10,7 @@ say nothing
 
 > Every computation has three elements: data, operations, and output.
 
-![1](/Quantum-Optimization/Picture/1.png)
+![1](/Picture/1.png)
 
 The three horizontal lines are  called wires, and they represent the three qubits.
 
@@ -43,13 +43,13 @@ $$
 
 for the 𝑋, 𝑌 , and 𝑍 axes we may define:
 
-![2](/Quantum-Optimization/Picture/2.png)
+![2](/Picture/2.png)
 
-![3](/Quantum-Optimization/Picture/3.png)
+![3](/Picture/3.png)
 
 it's clear that: $R_X(\pi)\equiv X,R_Y(\pi)\equiv Y,R_Z(\pi)\equiv Z,R_Z(\frac{\pi}{2})\equiv S,R_Z(\frac{\pi}{4})\equiv T$
 
-![9](/Quantum-Optimization/Picture/9.png)
+![9](/Picture/9.png)
 
 ==check exercise 1.8 later==
 
@@ -59,12 +59,12 @@ we express a two-qubit states by ==tensor product==
 
 it's worth mentioning that: 
 
-![4](/Quantum-Optimization/Picture/4.png)
+![4](/Picture/4.png)
 
 here's an example, in the following circuit, the gate $𝑋 \otimes 𝑋$ acts on the two qubits and then it is followed by the gate $𝐻 \otimes 𝐼$,
 where 𝐼 is the identity gate:
 
-![5](/Quantum-Optimization/Picture/5.png)
+![5](/Picture/5.png)
 
 we have known the gate $CNOT$,
 
@@ -72,7 +72,7 @@ the control qubit is indicated by a solid black circle and the target qubit is i
 
  if we use the circuit:
 
-![6](/Quantum-Optimization/Picture/6.png)
+![6](/Picture/6.png)
 
 we can apply a CNOT gate with target in the top qubit and control in the bottom one. It means the system is controlled by the second qubit, and if the second one is 1, the first qubit will be flipped.
 
@@ -91,11 +91,11 @@ the ==controlled-U Gate== (CU)
 
 the matrix is:
 
-![7](/Quantum-Optimization/Picture/7.png)
+![7](/Picture/7.png)
 
 and the circuit looks like:
 
-![8](/Quantum-Optimization/Picture/8.png)
+![8](/Picture/8.png)
 
 ### 1.5 Working with multiple qubits and universality
 
@@ -105,17 +105,17 @@ $$
 $$
 use Dirac notation, we get: 
 
-![10](/Quantum-Optimization/Picture/10.png)
+![10](/Picture/10.png)
 
 where $a^*$ and $b^*$ are the complex conjugates of a and b 
 
 > if we have 𝑛 qubits, the states that constitute the computational basis are: 
 
-![11](/Quantum-Optimization/Picture/11.png)
+![11](/Picture/11.png)
 
 the matrix for the $CCNOT$ gate:
 
-![12](/Quantum-Optimization/Picture/12.png)
+![12](Picture/12.png)
 
 using it and with the help of auxiliary qubits, we can **construct any classical Boolean operator**
 
