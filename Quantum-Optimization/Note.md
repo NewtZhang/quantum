@@ -142,6 +142,15 @@ qc = QuantumCircuit(qreg1, creg, qreg2)
 
 有代码的部分从此处开始尝试在jupyter notebook中运行
 
+对量子电路的粗略理解：
+
+![5](/Quantum-Optimization/Picture/5.png)
+
+在此图中，输入的量子比特从上至下为$\Ket{0}$和$\Ket{0}$，经过量子门后，输出的量子比特从上至下为$q1=H·X·\Ket{0}$和$q2=I·X·\Ket{1}$，而输出的两个qubits为：$\Ket{q1q2}=q1\otimes q2$
+
+也可用此方法得到：$\Ket{q1q2}=(q1\otimes q2)·(X \otimes X)·(H \otimes I)$
+
+即，“线”与“线”之间为内积
 
 
 
