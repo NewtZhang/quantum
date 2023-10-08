@@ -10,4 +10,6 @@ creg = ClassicalRegister(1, 'oldschool')
 
 qc = QuantumCircuit(qreg1, creg, qreg2)
 
-print(qc.draw())
+print(qc.x(qreg1))
+print(qc.x(0))
+print(qc.x(1))
