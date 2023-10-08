@@ -138,7 +138,9 @@ creg = ClassicalRegister(1, "oldschool")
 
 qc = QuantumCircuit(qreg1, creg, qreg2)
 ```
+**Notice**!
 
+有代码的部分从此处开始尝试在jupyter notebook中运行
 
 
 
