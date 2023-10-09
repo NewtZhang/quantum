@@ -154,13 +154,17 @@ _**对量子电路的粗略理解：**_
 
 ## 3 Working with Quadratic Unconstrained Binary Optimization Problems
 
+here's an example of a graph:
 
+![13](/Quantum-Optimization/Picture/13.png)
 
+Given a graph, the Max-Cut problem consists in finding a maximum cut of it
 
+and here's two different cuts of the graph above:
 
+![14](/Quantum-Optimization/Picture/14.png)
 
-
-
+(a) got 5 cuts and (b) got 4 cuts, while vertices 0, 1, 2 can not go in different sets, thus (a) is the Optimal cut
 
 
 
