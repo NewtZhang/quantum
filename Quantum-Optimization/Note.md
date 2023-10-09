@@ -142,7 +142,7 @@ qc = QuantumCircuit(qreg1, creg, qreg2)
 
 有代码的部分从此处开始尝试在jupyter notebook中运行
 
-对量子电路的粗略理解：
+_**对量子电路的粗略理解：**_
 
 ![5](/Quantum-Optimization/Picture/5.png)
 
@@ -152,7 +152,7 @@ qc = QuantumCircuit(qreg1, creg, qreg2)
 
 即，“线”与“线”之间为内积
 
-
+## 3 Working with Quadratic Unconstrained Binary Optimization Problems
 
 
 
