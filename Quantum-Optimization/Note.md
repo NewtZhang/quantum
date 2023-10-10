@@ -166,7 +166,7 @@ and here's two different cuts of the graph above:
 
 (a) got 5 cuts and (b) got 4 cuts, while vertices 0, 1, 2 can not go in different sets, thus (a) is the Optimal cut
 
-
+The details and the mathematical models of the Max-Cut problem and the **Ising Model** can be found in the file "SRTP_量子计算" P8-9.
 
 
 
