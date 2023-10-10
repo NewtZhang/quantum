@@ -168,7 +168,15 @@ and here's two different cuts of the graph above:
 
 The details and the mathematical models of the Max-Cut problem and the **Ising Model** can be found in the file "SRTP_量子计算" P8-9.
 
+An easy understanding: 
 
+![13](/Quantum-Optimization/Picture/13.png)
+
+![15](/Quantum-Optimization/Picture/15.png)
+
+![16](/Quantum-Optimization/Picture/16.png)
+
+Here, we will write some code to work with those tensor products of 𝑍 matrices and to compute their expectation values, so let's get back to the "Note.ipynb" file
 
 
 
