@@ -180,7 +180,7 @@ Here, we will write some code to work with those tensor products of 𝑍 matrice
 
 ### 3.3 Moving from Ising to QUBO and back
 
-
+Here we consider the **Subset Sum problem**
 
 
 
