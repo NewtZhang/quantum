@@ -178,7 +178,7 @@ An easy understanding:
 
 Here, we will write some code to work with those tensor products of 𝑍 matrices and to compute their expectation values, so let's get back to the "Note.ipynb" file
 
-
+### 3.3 Moving from Ising to QUBO and back
 
 
 
