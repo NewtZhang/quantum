@@ -10,10 +10,10 @@ circuit.decompose().decompose().draw(output="mpl")
 from qiskit.utils import algorithm_globals, QuantumInstance
 from qiskit import Aer
 from qiskit.algorithms.optimizers import COBYLA
-seed = 20480
+seed = 4096*16
 algorithm_globals.random_seed = seed
 quantum_instance = QuantumInstance(Aer.get_backend("aer_simulator"),
-seed_simulator=seed, seed_transpiler=seed,shots = 50000)
+seed_simulator=seed, seed_transpiler=seed,shots = 500000)
 qaoa = QAOA(optimizer = COBYLA(), quantum_instance=quantum_instance)
 result = qaoa.compute_minimum_eigenvalue(H1)
 print(result)
