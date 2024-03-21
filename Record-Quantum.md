@@ -1,8 +1,6 @@
-# SRTP记录
+# SRTP-Record
 
-## Week1
-
-### 3.5 Tuesday
+## QAOA
 
 可借鉴已有成果
 
@@ -14,6 +12,23 @@ QAOA+SPSA
 
 Grover：首先要确认切割条数？？？noisy机器下表现不佳？？
 
+## Grover
 
 
-下一步是VQE
+
+
+
+
+
+## GW
+
+
+
+
+
+
+
+## VQE
+
+https://qiskit-community.github.io/qiskit-optimization/tutorials/06_examples_max_cut_and_tsp.html 
+
